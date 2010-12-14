@@ -1,434 +1,698 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+  <head>
+    <meta name="Content-Type" content="text/html; charset=utf-8" />
+<title>Class: ActiveRecordMigrationTableMock</title>
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="css/common.css" type="text/css" media="screen" charset="utf-8" />
 
-	<title>Class: ActiveRecordMigrationTableMock</title>
+<script type="text/javascript" charset="utf-8">
+  relpath = '';
+  if (relpath != '') relpath += '/';
+</script>
+<script type="text/javascript" charset="utf-8" src="js/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/app.js"></script>
 
-	<link rel="stylesheet" href="./rdoc.css" type="text/css" media="screen" />
+  </head>
+  <body>
+    <script type="text/javascript" charset="utf-8">
+      if (window.top.frames.main) document.body.className = 'frames';
+    </script>
+    
+    <div id="header">
+      <div id="menu">
+  
+    <a href="_index.html">Index (A)</a> &raquo; 
+    
+    
+    <span class="title">ActiveRecordMigrationTableMock</span>
+  
+  
+  <div class="noframes"><span class="title">(</span><a href="." target="_top">no frames</a><span class="title">)</span></div>
+</div>
 
-	<script src="./js/jquery.js" type="text/javascript"
-		charset="utf-8"></script>
-	<script src="./js/thickbox-compressed.js" type="text/javascript"
-		charset="utf-8"></script>
-	<script src="./js/quicksearch.js" type="text/javascript"
-		charset="utf-8"></script>
-	<script src="./js/darkfish.js" type="text/javascript"
-		charset="utf-8"></script>
+      <div id="search">
+  <a id="class_list_link" href="#">Class List</a>
+  <a id="method_list_link" href="#">Method List</a>
+  <a id ="file_list_link" href="#">File List</a>
+</div>
 
-</head>
-<body class="class">
+      <div class="clear"></div>
+    </div>
+    
+    <iframe id="search_frame"></iframe>
+    
+    <div id="content"><h1>Class: ActiveRecordMigrationTableMock
+  
+  
+  
+</h1>
 
-	<div id="metadata">
-		<div id="file-metadata">
-			<div id="file-list-section" class="section">
-				<h3 class="section-header">In Files</h3>
-				<div class="section-body">
-					<ul>
-					
-						<li><a href="./lib/sixarm_ruby_active_record_migration_mock_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
-							class="thickbox" title="lib/sixarm_ruby_active_record_migration_mock.rb">lib/sixarm_ruby_active_record_migration_mock.rb</a></li>
-					
-					</ul>
-				</div>
-			</div>
-
-			
-		</div>
-
-		<div id="class-metadata">
-
-			<!-- Parent Class -->
-			
-			<div id="parent-class-section" class="section">
-				<h3 class="section-header">Parent</h3>
-				
-				<p class="link">Object</p>
-				
-			</div>
-			
-
-			<!-- Namespace Contents -->
-			
-
-			<!-- Method Quickref -->
-			
-			<div id="method-list-section" class="section">
-				<h3 class="section-header">Methods</h3>
-				<ul class="link-list">
-					
-					<li><a href="#M000005">::new</a></li>
-					
-					<li><a href="#M000007">#column</a></li>
-					
-					<li><a href="#M000008">#has_column?</a></li>
-					
-					<li><a href="#M000010">#has_index?</a></li>
-					
-					<li><a href="#M000009">#index</a></li>
-					
-					<li><a href="#M000006">#to_s</a></li>
-					
-				</ul>
-			</div>
-			
-
-			<!-- Included Modules -->
-			
-		</div>
-
-		<div id="project-metadata">
-			
-			
-			<div id="fileindex-section" class="section project-section">
-				<h3 class="section-header">Files</h3>
-				<ul>
-				
-					<li class="file"><a href="./README_rdoc.html">README.rdoc</a></li>
-				
-					<li class="file"><a href="./sixarm_ruby_active_record_migration_mock_gemspec.html">sixarm_ruby_active_record_migration_mock.gemspec</a></li>
-				
-					<li class="file"><a href="./sixarm_ruby_active_record_migration_mock_sha512_txt.html">sixarm_ruby_active_record_migration_mock.sha512.txt</a></li>
-				
-				</ul>
-			</div>
-			
-
-			<div id="classindex-section" class="section project-section">
-				<h3 class="section-header">Class Index
-					<span class="search-toggle"><img src="./images/find.png"
-						height="16" width="16" alt="[+]"
-						title="show/hide quicksearch" /></span></h3>
-				<form action="#" method="get" accept-charset="utf-8" class="initially-hidden">
-				<fieldset>
-					<legend>Quicksearch</legend>
-					<input type="text" name="quicksearch" value=""
-						class="quicksearch-field" />
-				</fieldset>
-				</form>
-
-				<ul class="link-list">
-				
-					<li><a href="./ActiveRecordMigrationColumnMock.html">ActiveRecordMigrationColumnMock</a></li>
-				
-					<li><a href="./ActiveRecordMigrationIndexMock.html">ActiveRecordMigrationIndexMock</a></li>
-				
-					<li><a href="./ActiveRecordMigrationMock.html">ActiveRecordMigrationMock</a></li>
-				
-					<li><a href="./ActiveRecordMigrationTableMock.html">ActiveRecordMigrationTableMock</a></li>
-				
-					<li><a href="./CreateFoosMigration.html">CreateFoosMigration</a></li>
-				
-					<li><a href="./Testing.html">Testing</a></li>
-				
-				</ul>
-				<div id="no-class-search-results" style="display: none;">No matching classes.</div>
-			</div>
-
-			
-		</div>
-	</div>
-
-	<div id="documentation">
-		<h1 class="class">ActiveRecordMigrationTableMock</h1>
-
-		<div id="description">
-			
-		</div>
-
-		<!-- Constants -->
-		
-
-		<!-- Attributes -->
-		
-		<div id="attribute-method-details" class="method-section section">
-			<h3 class="section-header">Attributes</h3>
-
-			
-			<div id="name-attribute-method" class="method-detail">
-				<a name="name"></a>
-				
-				<a name="name="></a>
-				
-				<div class="method-heading attribute-method-heading">
-					<span class="method-name">name</span><span
-						class="attribute-access-type">[RW]</span>
-				</div>
-
-				<div class="method-description">
-				
-				<p class="missing-docs">(Not documented)</p>
-				
-				</div>
-			</div>
-			
-			<div id="columns-attribute-method" class="method-detail">
-				<a name="columns"></a>
-				
-				<a name="columns="></a>
-				
-				<div class="method-heading attribute-method-heading">
-					<span class="method-name">columns</span><span
-						class="attribute-access-type">[RW]</span>
-				</div>
-
-				<div class="method-description">
-				
-				<p class="missing-docs">(Not documented)</p>
-				
-				</div>
-			</div>
-			
-			<div id="indexes-attribute-method" class="method-detail">
-				<a name="indexes"></a>
-				
-				<a name="indexes="></a>
-				
-				<div class="method-heading attribute-method-heading">
-					<span class="method-name">indexes</span><span
-						class="attribute-access-type">[RW]</span>
-				</div>
-
-				<div class="method-description">
-				
-				<p class="missing-docs">(Not documented)</p>
-				
-				</div>
-			</div>
-			
-		</div>
-		
-
-		<!-- Methods -->
-		
-		<div id="public-class-method-details" class="method-section section">
-			<h3 class="section-header">Public Class Methods</h3>
-
-		
-			<div id="new-method" class="method-detail ">
-				<a name="M000005"></a>
-
-				<div class="method-heading">
-				
-					<span class="method-name">new</span><span
-						class="method-args">(name)</span>
-					<span class="method-click-advice">click to toggle source</span>
-				
-				</div>
-
-				<div class="method-description">
-					
-					<p class="missing-docs">(Not documented)</p>
-					
-
-					
-					<div class="method-source-code"
-						id="new-source">
-<pre>
-     <span class="ruby-comment cmt"># File lib/sixarm_ruby_active_record_migration_mock.rb, line 99</span>
- 99:  <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">initialize</span>(<span class="ruby-identifier">name</span>)
-100:    <span class="ruby-ivar">@name</span>=<span class="ruby-identifier">name</span>
-101:    <span class="ruby-ivar">@columns</span>={}
-102:    <span class="ruby-ivar">@indexes</span>={}
-103:  <span class="ruby-keyword kw">end</span></pre>
-					</div>
-					
-				</div>
-
-				
-			</div>
-
-		
-		</div>
-	
-		<div id="public-instance-method-details" class="method-section section">
-			<h3 class="section-header">Public Instance Methods</h3>
-
-		
-			<div id="column-method" class="method-detail ">
-				<a name="M000007"></a>
-
-				<div class="method-heading">
-				
-					<span class="method-name">column</span><span
-						class="method-args">(column_name,column_type)</span>
-					<span class="method-click-advice">click to toggle source</span>
-				
-				</div>
-
-				<div class="method-description">
-					
-					<p class="missing-docs">(Not documented)</p>
-					
-
-					
-					<div class="method-source-code"
-						id="column-source">
-<pre>
-     <span class="ruby-comment cmt"># File lib/sixarm_ruby_active_record_migration_mock.rb, line 109</span>
-109:  <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">column</span>(<span class="ruby-identifier">column_name</span>,<span class="ruby-identifier">column_type</span>)
-110:    <span class="ruby-identifier">col</span> = <span class="ruby-constant">ActiveRecordMigrationColumnMock</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">column_name</span>,<span class="ruby-identifier">column_type</span>)
-111:    <span class="ruby-ivar">@columns</span>[<span class="ruby-identifier">column_name</span>]=<span class="ruby-identifier">col</span>
-112:    <span class="ruby-keyword kw">return</span> <span class="ruby-identifier">col</span>
-113:  <span class="ruby-keyword kw">end</span></pre>
-					</div>
-					
-				</div>
-
-				
-			</div>
-
-		
-			<div id="has-column--method" class="method-detail ">
-				<a name="M000008"></a>
-
-				<div class="method-heading">
-				
-					<span class="method-name">has_column?</span><span
-						class="method-args">(column_name)</span>
-					<span class="method-click-advice">click to toggle source</span>
-				
-				</div>
-
-				<div class="method-description">
-					
-					<p class="missing-docs">(Not documented)</p>
-					
-
-					
-					<div class="method-source-code"
-						id="has-column--source">
-<pre>
-     <span class="ruby-comment cmt"># File lib/sixarm_ruby_active_record_migration_mock.rb, line 115</span>
-115:  <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">has_column?</span>(<span class="ruby-identifier">column_name</span>)
-116:    <span class="ruby-ivar">@columns</span>[<span class="ruby-identifier">column_name</span>]<span class="ruby-operator">!=</span><span class="ruby-keyword kw">nil</span>
-117:  <span class="ruby-keyword kw">end</span></pre>
-					</div>
-					
-				</div>
-
-				
-			</div>
-
-		
-			<div id="has-index--method" class="method-detail ">
-				<a name="M000010"></a>
-
-				<div class="method-heading">
-				
-					<span class="method-name">has_index?</span><span
-						class="method-args">(column_name)</span>
-					<span class="method-click-advice">click to toggle source</span>
-				
-				</div>
-
-				<div class="method-description">
-					
-					<p class="missing-docs">(Not documented)</p>
-					
-
-					
-					<div class="method-source-code"
-						id="has-index--source">
-<pre>
-     <span class="ruby-comment cmt"># File lib/sixarm_ruby_active_record_migration_mock.rb, line 125</span>
-125:  <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">has_index?</span>(<span class="ruby-identifier">column_name</span>)
-126:    <span class="ruby-ivar">@indexes</span>[<span class="ruby-identifier">column_name</span>]<span class="ruby-operator">!=</span><span class="ruby-keyword kw">nil</span>
-127:  <span class="ruby-keyword kw">end</span></pre>
-					</div>
-					
-				</div>
-
-				
-			</div>
-
-		
-			<div id="index-method" class="method-detail ">
-				<a name="M000009"></a>
-
-				<div class="method-heading">
-				
-					<span class="method-name">index</span><span
-						class="method-args">(column_name)</span>
-					<span class="method-click-advice">click to toggle source</span>
-				
-				</div>
-
-				<div class="method-description">
-					
-					<p class="missing-docs">(Not documented)</p>
-					
-
-					
-					<div class="method-source-code"
-						id="index-source">
-<pre>
-     <span class="ruby-comment cmt"># File lib/sixarm_ruby_active_record_migration_mock.rb, line 119</span>
-119:  <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">index</span>(<span class="ruby-identifier">column_name</span>)
-120:    <span class="ruby-identifier">ind</span> = <span class="ruby-constant">ActiveRecordMigrationIndexMock</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">name</span>,<span class="ruby-identifier">column_name</span>)
-121:    <span class="ruby-ivar">@indexes</span>[<span class="ruby-identifier">column_name</span>]=<span class="ruby-identifier">ind</span>
-122:    <span class="ruby-keyword kw">return</span> <span class="ruby-identifier">ind</span>
-123:  <span class="ruby-keyword kw">end</span></pre>
-					</div>
-					
-				</div>
-
-				
-			</div>
-
-		
-			<div id="to-s-method" class="method-detail ">
-				<a name="M000006"></a>
-
-				<div class="method-heading">
-				
-					<span class="method-name">to_s</span><span
-						class="method-args">()</span>
-					<span class="method-click-advice">click to toggle source</span>
-				
-				</div>
-
-				<div class="method-description">
-					
-					<p class="missing-docs">(Not documented)</p>
-					
-
-					
-					<div class="method-source-code"
-						id="to-s-source">
-<pre>
-     <span class="ruby-comment cmt"># File lib/sixarm_ruby_active_record_migration_mock.rb, line 105</span>
-105:  <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">to_s</span>
-106:    <span class="ruby-keyword kw">return</span> <span class="ruby-node">&quot;table name:#{name} &quot;</span> <span class="ruby-operator">+</span> <span class="ruby-ivar">@columns</span>.<span class="ruby-identifier">values</span>.<span class="ruby-identifier">join</span>(<span class="ruby-value str">&quot;\n&quot;</span>) <span class="ruby-operator">+</span> <span class="ruby-value str">&quot; &quot;</span> <span class="ruby-operator">+</span> <span class="ruby-ivar">@indexes</span>.<span class="ruby-identifier">values</span>.<span class="ruby-identifier">join</span>(<span class="ruby-value str">&quot;\n&quot;</span>)
-107:  <span class="ruby-keyword kw">end</span></pre>
-					</div>
-					
-				</div>
-
-				
-			</div>
-
-		
-		</div>
-	
-
-	</div>
+<dl class="box">
+  
+    <dt class="r1">Inherits:</dt>
+    <dd class="r1">
+      <span class="inheritName">Object</span>
+      
+        <ul class="fullTree">
+          <li>Object</li>
+          
+            <li class="next">ActiveRecordMigrationTableMock</li>
+          
+        </ul>
+        <a href="#" class="inheritanceTree">show all</a>
+      
+      </dd>
+    
+  
+  
+    
+  
+    
+  
+  
+  
+    <dt class="r2 last">Defined in:</dt>
+    <dd class="r2 last">lib/sixarm_ruby_active_record_migration_mock.rb</dd>
+  
+</dl>
+<div class="clear"></div>
 
 
-	<div id="rdoc-debugging-section-dump" class="debugging-section">
-	
-		<p>Disabled; run with --debug to generate this.</p>
-	
-	</div>
 
-	<div id="validator-badges">
-		<p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
-		<p><small>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish
-			Rdoc Generator</a> 1.1.6</small>.</p>
-	</div>
+  <h2>Instance Attribute Summary <small>(<a href="#" class="summary_toggle">collapse</a>)</small></h2>
+  <ul class="summary">
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#columns-instance_method" title="#columns (instance method)">- (Object) <strong>columns</strong> </a>
+    
 
-</body>
+    
+  </span>
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>
+Returns the value of attribute columns.
+</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#indexes-instance_method" title="#indexes (instance method)">- (Object) <strong>indexes</strong> </a>
+    
+
+    
+  </span>
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>
+Returns the value of attribute indexes.
+</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#name-instance_method" title="#name (instance method)">- (Object) <strong>name</strong> </a>
+    
+
+    
+  </span>
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>
+Returns the value of attribute name.
+</p>
+</div></span>
+  
+</li>
+
+    
+  </ul>
+
+
+  
+    <h2>
+      Instance Method Summary
+      <small>(<a href="#" class="summary_toggle">collapse</a>)</small>
+    </h2>
+
+    <ul class="summary">
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#column-instance_method" title="#column (instance method)">- (Object) <strong>column</strong>(column_name, column_type) </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#has_column%3F-instance_method" title="#has_column? (instance method)">- (Boolean) <strong>has_column?</strong>(column_name) </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#has_index%3F-instance_method" title="#has_index? (instance method)">- (Boolean) <strong>has_index?</strong>(column_name) </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#index-instance_method" title="#index (instance method)">- (Object) <strong>index</strong>(column_name) </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#initialize-instance_method" title="#initialize (instance method)">- (ActiveRecordMigrationTableMock) <strong>initialize</strong>(name) </a>
+    
+
+    
+  </span>
+  
+    <span class="note title constructor">constructor</span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>
+A new instance of ActiveRecordMigrationTableMock.
+</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#to_s-instance_method" title="#to_s (instance method)">- (Object) <strong>to_s</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+    </ul>
+  
+
+<div id="constructor_details" class="method_details_list">
+  <h2>Constructor Details</h2>
+  
+    <div class="method_details first">
+  <p class="signature first" id="initialize-instance_method">
+  
+    - (<tt><span class='object_link'><a href="" title="ActiveRecordMigrationTableMock (class)">ActiveRecordMigrationTableMock</a></span></tt>) <strong>initialize</strong>(name) 
+  
+
+  
+</p><div class="docstring">
+  <div class="discussion">
+    <p>
+A new instance of ActiveRecordMigrationTableMock
+</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+99
+100
+101
+102
+103</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_active_record_migration_mock.rb', line 99</span>
+
+<span class='kw'>def</span> <span class='id initialize'>initialize</span><span class='lparen'>(</span><span class='id name'>name</span><span class='rparen'>)</span>
+  <span class='ivar'>@name</span><span class='op'>=</span><span class='id name'>name</span>
+  <span class='ivar'>@columns</span><span class='op'>=</span><span class='lbrace'>{</span><span class='rbrace'>}</span>
+  <span class='ivar'>@indexes</span><span class='op'>=</span><span class='lbrace'>{</span><span class='rbrace'>}</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+  
+</div>
+
+  <div id="instance_attr_details" class="attr_details">
+    <h2>Instance Attribute Details</h2>
+    
+      
+      <span id="columns=-instance_method"></span>
+      <span id="columns-instance_method"></span>
+      <div class="method_details first">
+  <p class="signature first" id="columns-instance_method">
+  
+    - (<tt>Object</tt>) <strong>columns</strong> 
+  
+
+  
+</p><div class="docstring">
+  <div class="discussion">
+    <p>
+Returns the value of attribute columns
+</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+96
+97
+98</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_active_record_migration_mock.rb', line 96</span>
+
+<span class='kw'>def</span> <span class='id columns'>columns</span>
+  <span class='ivar'>@columns</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="indexes=-instance_method"></span>
+      <span id="indexes-instance_method"></span>
+      <div class="method_details ">
+  <p class="signature " id="indexes-instance_method">
+  
+    - (<tt>Object</tt>) <strong>indexes</strong> 
+  
+
+  
+</p><div class="docstring">
+  <div class="discussion">
+    <p>
+Returns the value of attribute indexes
+</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+97
+98
+99</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_active_record_migration_mock.rb', line 97</span>
+
+<span class='kw'>def</span> <span class='id indexes'>indexes</span>
+  <span class='ivar'>@indexes</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="name=-instance_method"></span>
+      <span id="name-instance_method"></span>
+      <div class="method_details ">
+  <p class="signature " id="name-instance_method">
+  
+    - (<tt>Object</tt>) <strong>name</strong> 
+  
+
+  
+</p><div class="docstring">
+  <div class="discussion">
+    <p>
+Returns the value of attribute name
+</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+95
+96
+97</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_active_record_migration_mock.rb', line 95</span>
+
+<span class='kw'>def</span> <span class='id name'>name</span>
+  <span class='ivar'>@name</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+  </div>
+
+
+  <div id="instance_method_details" class="method_details_list">
+    <h2>Instance Method Details</h2>
+    
+    
+      <div class="method_details first">
+  <p class="signature first" id="column-instance_method">
+  
+    - (<tt>Object</tt>) <strong>column</strong>(column_name, column_type) 
+  
+
+  
+</p><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+109
+110
+111
+112
+113</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_active_record_migration_mock.rb', line 109</span>
+
+<span class='kw'>def</span> <span class='id column'>column</span><span class='lparen'>(</span><span class='id column_name'>column_name</span><span class='comma'>,</span><span class='id column_type'>column_type</span><span class='rparen'>)</span>
+  <span class='id col'>col</span> <span class='op'>=</span> <span class='const'>ActiveRecordMigrationColumnMock</span><span class='period'>.</span><span class='id new'>new</span><span class='lparen'>(</span><span class='id column_name'>column_name</span><span class='comma'>,</span><span class='id column_type'>column_type</span><span class='rparen'>)</span>
+  <span class='ivar'>@columns</span><span class='lbracket'>[</span><span class='id column_name'>column_name</span><span class='rbracket'>]</span><span class='op'>=</span><span class='id col'>col</span>
+  <span class='kw'>return</span> <span class='id col'>col</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <p class="signature " id="has_column?-instance_method">
+  
+    - (<tt>Boolean</tt>) <strong>has_column?</strong>(column_name) 
+  
+
+  
+</p><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  <h3>Returns:</h3>
+<ul class="return">
+  
+    <li>
+      
+        <span class='type'>(<tt>Boolean</tt>)</span>
+      
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+115
+116
+117</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_active_record_migration_mock.rb', line 115</span>
+
+<span class='kw'>def</span> <span class='id has_column?'>has_column?</span><span class='lparen'>(</span><span class='id column_name'>column_name</span><span class='rparen'>)</span>
+  <span class='ivar'>@columns</span><span class='lbracket'>[</span><span class='id column_name'>column_name</span><span class='rbracket'>]</span><span class='op'>!=</span><span class='kw'>nil</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <p class="signature " id="has_index?-instance_method">
+  
+    - (<tt>Boolean</tt>) <strong>has_index?</strong>(column_name) 
+  
+
+  
+</p><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  <h3>Returns:</h3>
+<ul class="return">
+  
+    <li>
+      
+        <span class='type'>(<tt>Boolean</tt>)</span>
+      
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+125
+126
+127</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_active_record_migration_mock.rb', line 125</span>
+
+<span class='kw'>def</span> <span class='id has_index?'>has_index?</span><span class='lparen'>(</span><span class='id column_name'>column_name</span><span class='rparen'>)</span>
+  <span class='ivar'>@indexes</span><span class='lbracket'>[</span><span class='id column_name'>column_name</span><span class='rbracket'>]</span><span class='op'>!=</span><span class='kw'>nil</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <p class="signature " id="index-instance_method">
+  
+    - (<tt>Object</tt>) <strong>index</strong>(column_name) 
+  
+
+  
+</p><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+119
+120
+121
+122
+123</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_active_record_migration_mock.rb', line 119</span>
+
+<span class='kw'>def</span> <span class='id index'>index</span><span class='lparen'>(</span><span class='id column_name'>column_name</span><span class='rparen'>)</span>
+  <span class='id ind'>ind</span> <span class='op'>=</span> <span class='const'>ActiveRecordMigrationIndexMock</span><span class='period'>.</span><span class='id new'>new</span><span class='lparen'>(</span><span class='id name'>name</span><span class='comma'>,</span><span class='id column_name'>column_name</span><span class='rparen'>)</span>
+  <span class='ivar'>@indexes</span><span class='lbracket'>[</span><span class='id column_name'>column_name</span><span class='rbracket'>]</span><span class='op'>=</span><span class='id ind'>ind</span>
+  <span class='kw'>return</span> <span class='id ind'>ind</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <p class="signature " id="to_s-instance_method">
+  
+    - (<tt>Object</tt>) <strong>to_s</strong> 
+  
+
+  
+</p><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+105
+106
+107</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_active_record_migration_mock.rb', line 105</span>
+
+<span class='kw'>def</span> <span class='id to_s'>to_s</span>
+  <span class='kw'>return</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>table name:</span><span class='embexpr_beg'>#{</span><span class='id name'>name</span><span class='rbrace'>}</span><span class='tstring_content'> </span><span class='tstring_end'>&quot;</span></span> <span class='op'>+</span> <span class='ivar'>@columns</span><span class='period'>.</span><span class='id values'>values</span><span class='period'>.</span><span class='id join'>join</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>\n</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span> <span class='op'>+</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'> </span><span class='tstring_end'>&quot;</span></span> <span class='op'>+</span> <span class='ivar'>@indexes</span><span class='period'>.</span><span class='id values'>values</span><span class='period'>.</span><span class='id join'>join</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>\n</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+  </div>
+
+</div>
+    
+    <div id="footer">
+  Generated on Mon Dec 13 17:29:25 2010 by 
+  <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.6.3 (ruby-1.9.2).
+</div>
+
+  </body>
 </html>
-
