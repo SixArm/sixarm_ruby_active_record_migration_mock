@@ -1,11 +1,15 @@
+# -*- encoding: utf-8 -*-
 =begin rdoc
 
-= SixArm Ruby Gem: ActiveRecord migration mock object for testing Rails
+= SixArm Ruby Gem » ActiveRecord Migration Mock
 
 Author:: Joel Parker Henderson, joelparkerhenderson@gmail.com
 Copyright:: Copyright (c) 2009-2010 Joel Parker Henderson
-License:: CreativeCommons License, Non-commercial Share Alike
-License:: LGPL, GNU Lesser General Public License
+License:: Your choice of BSD, MIT, LGPL, or CreativeCommons Non-commercial Share Alike
+
+ActiveRecord migration mock object for testing our Ruby On Rails gems.
+
+This is useful when you don't want to connect to the real database.
 
 ==Example Migration
 
