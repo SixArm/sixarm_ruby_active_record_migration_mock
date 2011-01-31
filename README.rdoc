@@ -1,5 +1,4 @@
-
-= SixArm Ruby Gem: ActiveRecord migration mock object for testing Rails
+= SixArm.com » Ruby » ActiveRecord migration mock object for testing Rails
 
 Author:: Joel Parker Henderson, joelparkerhenderson@gmail.com
 Copyright:: Copyright (c) 2009-2010 Joel Parker Henderson
