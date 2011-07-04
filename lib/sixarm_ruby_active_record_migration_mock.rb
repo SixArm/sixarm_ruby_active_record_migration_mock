@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+
 =begin rdoc
 
 = SixArm.com » Ruby » ActiveRecord migration mock object for testing Rails
@@ -47,7 +48,7 @@ This is useful when you don't want to connect to the real database.
   table.has_index?('def') => false
 
   columns = table.columns
-  
+
   column = table.columns['abc']
   column.type => :integer
 
