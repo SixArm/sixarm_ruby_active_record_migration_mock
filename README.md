@@ -1,4 +1,4 @@
-# Ruby » <br> ActiveRecord migration mock object for testing Rails
+SixArm.com → Ruby → <br> ActiveRecord migration mock object for testing Rails
 
 * Doc: <http://sixarm.com/sixarm_ruby_active_record_migration_mock/doc>
 * Gem: <http://rubygems.org/gems/sixarm_ruby_active_record_migration_mock>
