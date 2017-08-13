@@ -3,7 +3,7 @@
 Gem::Specification.new do |s|
 
   s.name              = "sixarm_ruby_active_record_migration_mock"
-  s.summary           = "SixArm.com » Ruby » ActiveRecord migration mock"
+  s.summary           = "SixArm.com → Ruby → ActiveRecord migration mock"
   s.description       = "ActiveRecord migration mock object for testing"
   s.version           = "1.0.10"
 
