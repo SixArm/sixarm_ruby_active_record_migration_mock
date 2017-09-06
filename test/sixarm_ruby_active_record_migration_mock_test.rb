@@ -4,7 +4,7 @@ require "simplecov"
 SimpleCov.start
 require "sixarm_ruby_active_record_migration_mock"
 
-class Testing < Test::Unit::TestCase
+class Testing < Minitest::Test
 
  def test_migration
   CreateFoosMigration.up                                                                   
