@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 require "minitest/autorun"
 require "simplecov"
+SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
+  SimpleCov::Formatter::HTMLFormatter,
+])
 SimpleCov.start
 require "sixarm_ruby_active_record_migration_mock"
 
@@ -13,10 +16,10 @@ class Testing < Minitest::Test
   assert_equal(false, ActiveRecordMigrationMock.has_table?('bars'),'has_table bars')
 
   tables = ActiveRecordMigrationMock.tables
-  assert_not_nil(tables,'tables hash')
+  refute_nil(tables,'tables hash')
 
   table=tables['foos']
-  assert_not_nil(table,'table foos')
+  refute_nil(table,'table foos')
 
   assert_equal(true,  table.has_column?(:abc),'has_column abc')
   assert_equal(true,  table.has_column?(:def),'has_column def')

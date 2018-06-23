@@ -1,8 +1,17 @@
 # SixArm.com → Ruby → <br> ActiveRecord migration mock object for testing Rails
 
+<!--header-open-->
+
+[![Gem Version](https://badge.fury.io/rb/sixarm_ruby_active_record_migration_mock.svg)](http://badge.fury.io/rb/sixarm_ruby_active_record_migration_mock)
+[![Build Status](https://travis-ci.org/SixArm/sixarm_ruby_active_record_migration_mock.png)](https://travis-ci.org/SixArm/sixarm_ruby_active_record_migration_mock)
+[![Code Climate](https://api.codeclimate.com/v1/badges/c439010bee8fb1221527/maintanability)](https://codeclimate.com/github/SixArm/sixarm_ruby_active_record_migration_mock/maintainability)
+
+* Git: <https://github.com/SixArm/sixarm_ruby_active_record_migration_mock>
 * Doc: <http://sixarm.com/sixarm_ruby_active_record_migration_mock/doc>
-* Gem: <http://rubygems.org/gems/sixarm_ruby_active_record_migration_mock>
-* Repo: <http://github.com/sixarm/sixarm_ruby_active_record_migration_mock>
+* Gem: <https://rubygems.org/gems/sixarm_ruby_active_record_migration_mock>
+* Contact: Joel Parker Henderson, <joel@sixarm.com>
+* Project: [changes](CHANGES.md), [license](LICENSE.md), [contributing](CONTRIBUTING.md).
+
 <!--header-shut-->
 
 
@@ -13,27 +22,27 @@ For docs go to <http://sixarm.com/sixarm_ruby_active_record_migration_mock/doc>
 Want to help? We're happy to get pull requests.
 
 
-<!--install-opent-->
+<!--install-open-->
 
 ## Install
 
-To install using a Gemfile, add this:
+### Gem
 
-    gem "sixarm_ruby_active_record_migration_mock", ">= 1.0.10", "< 2"
+To install this gem in your shell or terminal:
 
-To install using the command line, run this:
+    gem install sixarm_ruby_active_record_migration_mock
 
-    gem install sixarm_ruby_active_record_migration_mock -v ">= 1.0.10, < 2"
+### Gemfile
 
-To install using the command line with high security, run this:
+To add this gem to your Gemfile:
 
-    wget http://sixarm.com/sixarm.pem
-    gem cert --add sixarm.pem && gem sources --add http://sixarm.com
-    gem install sixarm_ruby_active_record_migration_mock -v ">= 1.0.10, < 2" --trust-policy HighSecurity
+    gem 'sixarm_ruby_active_record_migration_mock'
+
+### Require
 
 To require the gem in your code:
 
-    require "sixarm_ruby_active_record_migration_mock"
+    require 'sixarm_ruby_active_record_migration_mock'
 
 <!--install-shut-->
 
