@@ -12,11 +12,13 @@ class ActiveRecordMigrationTableMock
   end
 
   def to_s
-    "name:#{name} " + @columns.values.join("\n") + ' ' + @indexes.values.join("\n")
+    "table name:#{name}\n" + 
+    @columns.values.map{|x| x.to_s + "\n"}.join + 
+    @indexes.values.map{|x| x.to_s + "\n"}.join
   end
 
-  def column(column_name, column_type)
-    col = ActiveRecordMigrationColumnMock.new(column_name, column_type)
+  def column(column_name, column_type, column_options = {})
+    col = ActiveRecordMigrationColumnMock.new(column_name, column_type, column_options)
     @columns[column_name] = col
     col
   end
@@ -34,4 +36,5 @@ class ActiveRecordMigrationTableMock
   def has_index?(column_name)
     @indexes[column_name] != nil
   end
+
 end

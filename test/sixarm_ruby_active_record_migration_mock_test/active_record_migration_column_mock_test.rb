@@ -5,6 +5,7 @@ class ActiveRecordMigrationColumnMockTest < Minitest::Test
   def test_exist
     name = "c"
     type = "x"
-    assert_instance_of(ActiveRecordMigrationColumnMock, ActiveRecordMigrationColumnMock.new(name, type))
+    options = {a: :b}
+    assert_instance_of(ActiveRecordMigrationColumnMock, ActiveRecordMigrationColumnMock.new(name, type, options))
   end
 end

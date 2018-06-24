@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.name           = "sixarm_ruby_active_record_migration_mock"
   s.summary        = "SixArm.com → Ruby → ActiveRecord migration mock"
   s.description    = "ActiveRecord migration mock object for testing"
-  s.version        = "2.0.1"
+  s.version        = "2.1.0"
 
   s.author         = "SixArm"
   s.email          = "sixarm@sixarm.com"

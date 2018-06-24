@@ -1,10 +1,27 @@
 # -*- coding: utf-8 -*-
 require "sixarm_ruby_active_record_migration_mock_test"
 
+class CreateFoosMigration < ActiveRecordMigrationMock
+
+  def self.up
+    create_table 'foos', :force => true do |t|
+      t.column :abc, :integer
+      t.column :def, :string  # with default options
+      t.column :def, :string, length: 123  # with custom options
+    end
+    add_index 'foos', :abc
+  end
+
+  def self.down 
+   drop_table 'foos'
+  end 
+
+end
+
 class IntegratinoTest < Minitest::Test
 
   def test_migration
-    CreateFoosMigration.up                                                                   
+    CreateFoosMigration.up
 
     assert_equal(true,  ActiveRecordMigrationMock.has_table?('foos'),'has_table foos')
     assert_equal(false, ActiveRecordMigrationMock.has_table?('bars'),'has_table bars')
