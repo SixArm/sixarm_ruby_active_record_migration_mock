@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.name           = "sixarm_ruby_active_record_migration_mock"
   s.summary        = "SixArm.com → Ruby → ActiveRecord migration mock"
   s.description    = "ActiveRecord migration mock object for testing"
-  s.version        = "2.0.0"
+  s.version        = "2.0.1"
 
   s.author         = "SixArm"
   s.email          = "sixarm@sixarm.com"
@@ -21,11 +21,20 @@ Gem::Specification.new do |s|
 
   s.files = [
     "Rakefile",
-    "lib/sixarm_ruby_active_record_migration_mock.rb"
+    "lib/sixarm_ruby_active_record_migration_mock.rb",
+    "lib/sixarm_ruby_active_record_migration_mock/active_record_migration_mock.rb",
+    "lib/sixarm_ruby_active_record_migration_mock/active_record_migration_table_mock.rb",
+    "lib/sixarm_ruby_active_record_migration_mock/active_record_migration_column_mock.rb",
+    "lib/sixarm_ruby_active_record_migration_mock/active_record_migration_index_mock.rb",
   ]
 
   s.test_files = [
-    "test/sixarm_ruby_active_record_migration_mock_test.rb"
+    "test/sixarm_ruby_active_record_migration_mock_test.rb",
+    "test/sixarm_ruby_active_record_migration_mock_test/active_record_migration_mock_test.rb",
+    "test/sixarm_ruby_active_record_migration_mock_test/active_record_migration_table_mock_test.rb",
+    "test/sixarm_ruby_active_record_migration_mock_test/active_record_migration_column_mock_test.rb",
+    "test/sixarm_ruby_active_record_migration_mock_test/active_record_migration_index_mock_test.rb",
+    "test/sixarm_ruby_active_record_migration_mock_test/integration_test.rb",
   ]
 
   s.add_development_dependency("minitest", ">= 5.11.3", "< 6")
