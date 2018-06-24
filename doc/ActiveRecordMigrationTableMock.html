@@ -94,7 +94,7 @@
   
   <dl>
     <dt>Defined in:</dt>
-    <dd>lib/sixarm_ruby_active_record_migration_mock.rb</dd>
+    <dd>lib/sixarm_ruby_active_record_migration_mock/active_record_migration_table_mock.rb</dd>
   </dl>
   
 </div>
@@ -368,19 +368,19 @@
       <pre class="lines">
 
 
-44
-45
-46
-47
-48</pre>
+8
+9
+10
+11
+12</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_active_record_migration_mock.rb', line 44</span>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_active_record_migration_mock/active_record_migration_table_mock.rb', line 8</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_initialize'>initialize</span><span class='lparen'>(</span><span class='id identifier rubyid_name'>name</span><span class='rparen'>)</span>
-  <span class='ivar'>@name</span><span class='op'>=</span><span class='id identifier rubyid_name'>name</span>
-  <span class='ivar'>@columns</span><span class='op'>=</span><span class='lbrace'>{</span><span class='rbrace'>}</span>
-  <span class='ivar'>@indexes</span><span class='op'>=</span><span class='lbrace'>{</span><span class='rbrace'>}</span>
+  <span class='ivar'>@name</span> <span class='op'>=</span> <span class='id identifier rubyid_name'>name</span>
+  <span class='ivar'>@columns</span> <span class='op'>=</span> <span class='lbrace'>{</span><span class='rbrace'>}</span>
+  <span class='ivar'>@indexes</span> <span class='op'>=</span> <span class='lbrace'>{</span><span class='rbrace'>}</span>
 <span class='kw'>end</span></pre>
     </td>
   </tr>
@@ -420,12 +420,12 @@
       <pre class="lines">
 
 
-41
-42
-43</pre>
+5
+6
+7</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_active_record_migration_mock.rb', line 41</span>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_active_record_migration_mock/active_record_migration_table_mock.rb', line 5</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_columns'>columns</span>
   <span class='ivar'>@columns</span>
@@ -463,12 +463,12 @@
       <pre class="lines">
 
 
-42
-43
-44</pre>
+6
+7
+8</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_active_record_migration_mock.rb', line 42</span>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_active_record_migration_mock/active_record_migration_table_mock.rb', line 6</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_indexes'>indexes</span>
   <span class='ivar'>@indexes</span>
@@ -506,12 +506,12 @@
       <pre class="lines">
 
 
-40
-41
-42</pre>
+4
+5
+6</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_active_record_migration_mock.rb', line 40</span>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_active_record_migration_mock/active_record_migration_table_mock.rb', line 4</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_name'>name</span>
   <span class='ivar'>@name</span>
@@ -543,19 +543,19 @@
       <pre class="lines">
 
 
-54
-55
-56
-57
-58</pre>
+18
+19
+20
+21
+22</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_active_record_migration_mock.rb', line 54</span>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_active_record_migration_mock/active_record_migration_table_mock.rb', line 18</span>
 
-<span class='kw'>def</span> <span class='id identifier rubyid_column'>column</span><span class='lparen'>(</span><span class='id identifier rubyid_column_name'>column_name</span><span class='comma'>,</span><span class='id identifier rubyid_column_type'>column_type</span><span class='rparen'>)</span>
-  <span class='id identifier rubyid_col'>col</span> <span class='op'>=</span> <span class='const'><span class='object_link'><a href="ActiveRecordMigrationColumnMock.html" title="ActiveRecordMigrationColumnMock (class)">ActiveRecordMigrationColumnMock</a></span></span><span class='period'>.</span><span class='id identifier rubyid_new'><span class='object_link'><a href="ActiveRecordMigrationColumnMock.html#initialize-instance_method" title="ActiveRecordMigrationColumnMock#initialize (method)">new</a></span></span><span class='lparen'>(</span><span class='id identifier rubyid_column_name'>column_name</span><span class='comma'>,</span><span class='id identifier rubyid_column_type'>column_type</span><span class='rparen'>)</span>
-  <span class='ivar'>@columns</span><span class='lbracket'>[</span><span class='id identifier rubyid_column_name'>column_name</span><span class='rbracket'>]</span><span class='op'>=</span><span class='id identifier rubyid_col'>col</span>
-  <span class='kw'>return</span> <span class='id identifier rubyid_col'>col</span>
+<span class='kw'>def</span> <span class='id identifier rubyid_column'>column</span><span class='lparen'>(</span><span class='id identifier rubyid_column_name'>column_name</span><span class='comma'>,</span> <span class='id identifier rubyid_column_type'>column_type</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_col'>col</span> <span class='op'>=</span> <span class='const'><span class='object_link'><a href="ActiveRecordMigrationColumnMock.html" title="ActiveRecordMigrationColumnMock (class)">ActiveRecordMigrationColumnMock</a></span></span><span class='period'>.</span><span class='id identifier rubyid_new'><span class='object_link'><a href="ActiveRecordMigrationColumnMock.html#initialize-instance_method" title="ActiveRecordMigrationColumnMock#initialize (method)">new</a></span></span><span class='lparen'>(</span><span class='id identifier rubyid_column_name'>column_name</span><span class='comma'>,</span> <span class='id identifier rubyid_column_type'>column_type</span><span class='rparen'>)</span>
+  <span class='ivar'>@columns</span><span class='lbracket'>[</span><span class='id identifier rubyid_column_name'>column_name</span><span class='rbracket'>]</span> <span class='op'>=</span> <span class='id identifier rubyid_col'>col</span>
+  <span class='id identifier rubyid_col'>col</span>
 <span class='kw'>end</span></pre>
     </td>
   </tr>
@@ -599,15 +599,15 @@
       <pre class="lines">
 
 
-60
-61
-62</pre>
+24
+25
+26</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_active_record_migration_mock.rb', line 60</span>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_active_record_migration_mock/active_record_migration_table_mock.rb', line 24</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_has_column?'>has_column?</span><span class='lparen'>(</span><span class='id identifier rubyid_column_name'>column_name</span><span class='rparen'>)</span>
-  <span class='ivar'>@columns</span><span class='lbracket'>[</span><span class='id identifier rubyid_column_name'>column_name</span><span class='rbracket'>]</span><span class='op'>!=</span><span class='kw'>nil</span>
+  <span class='ivar'>@columns</span><span class='lbracket'>[</span><span class='id identifier rubyid_column_name'>column_name</span><span class='rbracket'>]</span> <span class='op'>!=</span> <span class='kw'>nil</span>
 <span class='kw'>end</span></pre>
     </td>
   </tr>
@@ -651,15 +651,15 @@
       <pre class="lines">
 
 
-70
-71
-72</pre>
+34
+35
+36</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_active_record_migration_mock.rb', line 70</span>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_active_record_migration_mock/active_record_migration_table_mock.rb', line 34</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_has_index?'>has_index?</span><span class='lparen'>(</span><span class='id identifier rubyid_column_name'>column_name</span><span class='rparen'>)</span>
-  <span class='ivar'>@indexes</span><span class='lbracket'>[</span><span class='id identifier rubyid_column_name'>column_name</span><span class='rbracket'>]</span><span class='op'>!=</span><span class='kw'>nil</span>
+  <span class='ivar'>@indexes</span><span class='lbracket'>[</span><span class='id identifier rubyid_column_name'>column_name</span><span class='rbracket'>]</span> <span class='op'>!=</span> <span class='kw'>nil</span>
 <span class='kw'>end</span></pre>
     </td>
   </tr>
@@ -681,19 +681,19 @@
       <pre class="lines">
 
 
-64
-65
-66
-67
-68</pre>
+28
+29
+30
+31
+32</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_active_record_migration_mock.rb', line 64</span>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_active_record_migration_mock/active_record_migration_table_mock.rb', line 28</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_index'>index</span><span class='lparen'>(</span><span class='id identifier rubyid_column_name'>column_name</span><span class='rparen'>)</span>
-  <span class='id identifier rubyid_ind'>ind</span> <span class='op'>=</span> <span class='const'><span class='object_link'><a href="ActiveRecordMigrationIndexMock.html" title="ActiveRecordMigrationIndexMock (class)">ActiveRecordMigrationIndexMock</a></span></span><span class='period'>.</span><span class='id identifier rubyid_new'><span class='object_link'><a href="ActiveRecordMigrationIndexMock.html#initialize-instance_method" title="ActiveRecordMigrationIndexMock#initialize (method)">new</a></span></span><span class='lparen'>(</span><span class='id identifier rubyid_name'>name</span><span class='comma'>,</span><span class='id identifier rubyid_column_name'>column_name</span><span class='rparen'>)</span>
-  <span class='ivar'>@indexes</span><span class='lbracket'>[</span><span class='id identifier rubyid_column_name'>column_name</span><span class='rbracket'>]</span><span class='op'>=</span><span class='id identifier rubyid_ind'>ind</span>
-  <span class='kw'>return</span> <span class='id identifier rubyid_ind'>ind</span>
+  <span class='id identifier rubyid_ind'>ind</span> <span class='op'>=</span> <span class='const'><span class='object_link'><a href="ActiveRecordMigrationIndexMock.html" title="ActiveRecordMigrationIndexMock (class)">ActiveRecordMigrationIndexMock</a></span></span><span class='period'>.</span><span class='id identifier rubyid_new'><span class='object_link'><a href="ActiveRecordMigrationIndexMock.html#initialize-instance_method" title="ActiveRecordMigrationIndexMock#initialize (method)">new</a></span></span><span class='lparen'>(</span><span class='id identifier rubyid_name'>name</span><span class='comma'>,</span> <span class='id identifier rubyid_column_name'>column_name</span><span class='rparen'>)</span>
+  <span class='ivar'>@indexes</span><span class='lbracket'>[</span><span class='id identifier rubyid_column_name'>column_name</span><span class='rbracket'>]</span> <span class='op'>=</span> <span class='id identifier rubyid_ind'>ind</span>
+  <span class='id identifier rubyid_ind'>ind</span>
 <span class='kw'>end</span></pre>
     </td>
   </tr>
@@ -715,15 +715,15 @@
       <pre class="lines">
 
 
-50
-51
-52</pre>
+14
+15
+16</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_active_record_migration_mock.rb', line 50</span>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_active_record_migration_mock/active_record_migration_table_mock.rb', line 14</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_to_s'>to_s</span>
-  <span class='kw'>return</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>table name:</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_name'>name</span><span class='embexpr_end'>}</span><span class='tstring_content'> </span><span class='tstring_end'>&quot;</span></span> <span class='op'>+</span> <span class='ivar'>@columns</span><span class='period'>.</span><span class='id identifier rubyid_values'>values</span><span class='period'>.</span><span class='id identifier rubyid_join'>join</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>\n</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span> <span class='op'>+</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'> </span><span class='tstring_end'>&quot;</span></span> <span class='op'>+</span> <span class='ivar'>@indexes</span><span class='period'>.</span><span class='id identifier rubyid_values'>values</span><span class='period'>.</span><span class='id identifier rubyid_join'>join</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>\n</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+  <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>name:</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_name'>name</span><span class='embexpr_end'>}</span><span class='tstring_content'> </span><span class='tstring_end'>&quot;</span></span> <span class='op'>+</span> <span class='ivar'>@columns</span><span class='period'>.</span><span class='id identifier rubyid_values'>values</span><span class='period'>.</span><span class='id identifier rubyid_join'>join</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>\n</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span> <span class='op'>+</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'> </span><span class='tstring_end'>&#39;</span></span> <span class='op'>+</span> <span class='ivar'>@indexes</span><span class='period'>.</span><span class='id identifier rubyid_values'>values</span><span class='period'>.</span><span class='id identifier rubyid_join'>join</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>\n</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
 <span class='kw'>end</span></pre>
     </td>
   </tr>
@@ -735,7 +735,7 @@
 </div>
 
       <div id="footer">
-  Generated on Sat Jun 23 11:16:26 2018 by
+  Generated on Sun Jun 24 09:33:04 2018 by
   <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
   0.9.14 (ruby-2.5.1).
 </div>
