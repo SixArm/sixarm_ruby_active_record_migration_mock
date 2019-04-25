@@ -4,7 +4,7 @@
 
 [![Gem Version](https://badge.fury.io/rb/sixarm_ruby_active_record_migration_mock.svg)](http://badge.fury.io/rb/sixarm_ruby_active_record_migration_mock)
 [![Build Status](https://travis-ci.org/SixArm/sixarm_ruby_active_record_migration_mock.png)](https://travis-ci.org/SixArm/sixarm_ruby_active_record_migration_mock)
-[![Code Climate](https://api.codeclimate.com/v1/badges/c439010bee8fb1221527/maintanability)](https://codeclimate.com/github/SixArm/sixarm_ruby_active_record_migration_mock/maintainability)
+[![Code Climate](https://api.codeclimate.com/v1/badges/c439010bee8fb1221527/maintainability)](https://codeclimate.com/github/SixArm/sixarm_ruby_active_record_migration_mock/maintainability)
 
 * Git: <https://github.com/SixArm/sixarm_ruby_active_record_migration_mock>
 * Doc: <http://sixarm.com/sixarm_ruby_active_record_migration_mock/doc>
