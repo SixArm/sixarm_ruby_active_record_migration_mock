@@ -1,0 +1,1 @@
+6727a172a75fbf2ca4f0704bfbc7be576f1b59141a465c1a056a2918acdbb6ffa690e13d428889c51cc1d8b205aca6a518f2fb92ecb7bc8727e0cbf0af453842  sixarm_ruby_active_record_migration_mock-2.1.0.gem
